@@ -83,6 +83,26 @@ ul.no-style li{
   display: inline;
 }
 
+.btn-danger{
+  border-radius: 1em;
+}
+
+.thumbnail a{
+  height: 150px;
+}
+
+.contact-details button{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  color: #dadada;
+  border-radius: 5px;
+}
+
+.contact-details a{
+  color: #dadada;
+}
+
 .row{
   width: 100%;
   margin: auto;
