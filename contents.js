@@ -1,3 +1,10 @@
+  $.ajax({
+    cache: false
+  })
+  .done(function( html ) {
+    $( "#results" ).append( html );
+  });
+
   // Default Value for Home
   $(".content-box").html(function(){
     $(".content-body").load("home.html");

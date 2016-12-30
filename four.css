@@ -19,7 +19,7 @@ html, body {
 }
 
 .logo-rin img{
-  width: 70px;
+  height: 80px;
 }
 
 .nav li a {
@@ -43,6 +43,13 @@ html, body {
 .content-box{
   height: 25em;
   overflow: scroll;
+  overflow-x: hidden;
+}
+
+.content-body{
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .page-wrap{
@@ -61,6 +68,19 @@ html, body {
 
 .navbar-footer {
   background-color: #de1e1e;
+}
+
+footer {
+  color: #dadada;
+  text-align: center;
+}
+
+ul.no-style {
+  list-style-type: none;
+}
+
+ul.no-style li{
+  display: inline;
 }
 
 .row{
