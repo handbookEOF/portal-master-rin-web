@@ -44,6 +44,7 @@ html, body {
   height: 25em;
   overflow: scroll;
   overflow-x: hidden;
+  position: static;
 }
 
 .content-body{
@@ -62,7 +63,7 @@ html, body {
   display: block;
 }
 
-.navbar-footer, .footer-wrap:after {
+.navbar-footer, .page-wrap:after {
   height: 7em;
 }
 

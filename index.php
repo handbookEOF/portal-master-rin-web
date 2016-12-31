@@ -51,8 +51,8 @@
   </div> <!-- closing tag of page wrap -->
 
 
-  <div class="navbar-footer">
-    <div class="row">
+  <div class="row">
+    <div class="navbar-footer">
       <div class="col-sm-12">
         <div class="container-fluid">
           <div class="">
