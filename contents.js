@@ -29,7 +29,7 @@
     $(".content-box").html(function(){
       $(".content-body").load("portfolio.html");
     });
-  }); 
+  });
 
   // About Content
   $("#about").on('click', function(){

@@ -87,8 +87,18 @@ ul.no-style li{
   border-radius: 1em;
 }
 
-.thumbnail a{
-  height: 150px;
+.thumbnail{
+  width: 310px;
+}
+
+.thumbnail-size{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.thumbnail-size img{
+  width: 300px;
 }
 
 .contact-details button{
