@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+html, body {
+  height: 100%;
+}
+
+[class*="col-sm-"]{
+  padding: 0;
+}
+
+.logo-rin{
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.logo-rin img{
+  height: 80px;
+}
+
+.nav li a {
+  color: #de1e1e;
+}
+
+.nav li a:hover {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.nav li a:target {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.content-box{
+  height: 25em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.content-body{
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -7em;
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+.navbar-footer, .footer-wrap:after {
+  height: 7em;
+}
+
+.navbar-footer {
+  background-color: #de1e1e;
+}
+
+footer {
+  color: #dadada;
+  text-align: center;
+}
+
+ul.no-style {
+  list-style-type: none;
+}
+
+ul.no-style li{
+  display: inline;
+}
+
+.btn-danger{
+  border-radius: 1em;
+}
+
+.thumbnail a {
+  height: 300px;
+  width: 100%;
+}
+
+.contact-details button{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  color: #dadada;
+  border-radius: 5px;
+}
+
+.contact-details a{
+  color: #dadada;
+}
+
+.row{
+  width: 100%;
+  margin: auto;
+}
+
+.img-responsive {
+  display:block;
+  height: 300px;
+  width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  text-align: center;
+  background: red;
+  background-size: cover;
+  height: 400px;
+}

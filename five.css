@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  /* border: 1px solid black; */
+}
+
+html, body {
+  height: 100%;
+}
+
+[class*="col-sm-"]{
+  padding: 0;
+}
+
+.logo-rin{
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.logo-rin img{
+  height: 80px;
+}
+
+.nav li a {
+  color: #de1e1e;
+}
+
+.nav li a:hover {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.nav li a:target {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.content-box{
+  height: 25em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.content-body{
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -7em;
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+.navbar-footer, .footer-wrap:after {
+  height: 7em;
+}
+
+.navbar-footer {
+  background-color: #de1e1e;
+}
+
+footer {
+  color: #dadada;
+  text-align: center;
+}
+
+ul.no-style {
+  list-style-type: none;
+}
+
+ul.no-style li{
+  display: inline;
+}
+
+.btn-danger{
+  border-radius: 1em;
+}
+
+.scores-grid {
+  overflow: hidden;
+  clear: both;
+  padding: 3.125em;
+  background: #434347;
+  color: white;
+  min-height: 800px;
+  alignment: center;
+}
+
+.scores-grid .score-item {
+  width: 30%;
+  padding: 0;
+  margin-right: 1.4%;
+  margin-bottom: 1.4%;
+  float: right;
+  position: relative;
+  background: #303135;
+}
+
+.scores-grid .score-item img {
+  width: 100%;
+  opacity: 0.6;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.scores-grid .score-item .information {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(48, 49, 53, 0.9);
+  color: white;
+  text-align: center;
+  padding: .5em 0;
+}
+
+.scores-grid .score-item .information h3 {
+  font-family: 'function_prodemi';
+  text-transform: uppercase;
+  line-height: 1.1;
+  letter-spacing: .1em;
+  font-size: 1.75em;
+}
+
+
+.contact-details button{
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  color: #dadada;
+  border-radius: 5px;
+}
+
+.contact-details a{
+  color: #dadada;
+}
+
+.row{
+  width: 100%;
+  margin: auto;
+}
+
+.img-responsive {
+  display:block;
+  height: 300px;
+  width: 100%;
+}
