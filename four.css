@@ -42,7 +42,7 @@ html, body {
 
 .content-box{
   height: 25em;
-  overflow: scroll;
+  /*overflow: scroll;*/
   overflow-x: hidden;
   position: static;
 }
@@ -117,4 +117,19 @@ ul.no-style li{
 .row{
   width: 100%;
   margin: auto;
+}
+
+.hover-effect .info{
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.hover-effect .info:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.home-thumb{
+  height: 150px;
 }
