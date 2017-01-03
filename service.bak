@@ -1,0 +1,54 @@
+<div class="container-fluid">
+  <h3>Kembangkan potensi anda dengan teknologi. Mulailah dari sekarang, mulailah bersama kami.</h3>
+  <br>
+  <br>
+  <p>Bangun kredibilitas anda dengan membuat sebuah website yang sesuai dengan kebutuhan dan keinginan anda.  Kami membuka jasa pembuatan website berikut hosting dan domain. Tentukan sendiri paket anda, dan bersiaplah untuk memperluas koneksi anda! </p>
+  <br />
+  <br/>
+  <ul class="no-style">
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Personal Packet</h4>
+        <h4>Start from 1,5jt</h4>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Bussiness Packet</h4>
+        <h4>Start from 5jt</h4>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Enterprise Packet</h4>
+        <h4>Start from 15jt</h4>
+      </button>
+    </li>
+  </ul>
+<div>
+<br>
+<div class="content-body">
+  <p>Dalam era digital seperti sekarang ini, keberadaan apps atau software akan dapat membantu mempermudah pekerjaan anda. Kami membuka jasa pembuatan aplikasi pada berbagai platform. Ciptakan aplikasi anda bersama kami dan rasakan kemudahan akses dengan sentuhan jari anda!</p>
+  <br />
+  <br>
+  <ul class="no-style">
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Android Platform</h4>
+        <h4>Start from 10 jt</h4>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Desktop Platform</h4>
+        <h4>Start from 20 jt</h4>
+      </button>
+    </li>
+    <li>
+      <button type="button" class="btn-danger">
+        <h4>Website Platform</h4>
+        <h4>Start from 30 jt</h4>
+      </button>
+    </li>
+  </ul>
+</div>

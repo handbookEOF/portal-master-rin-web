@@ -92,6 +92,24 @@ ul.no-style li{
   width: 310px;
 }
 
+.thumbnail .caption{
+  padding: 0;
+  height: 0;
+  transition: all 0.5s;
+}
+.thumbnail .caption p{
+  opacity: 0; 
+  transition: all 0.4s;
+}
+
+.thumbnail:hover .caption{
+  height: 80px;
+}
+
+.thumbnail:hover .caption p{
+  opacity: 1;
+}
+
 .thumbnail-size{
   height: 300px;
   width: 300px;
@@ -114,6 +132,14 @@ ul.no-style li{
   color: #dadada;
 }
 
+.contact-bg{
+  height: 350px;
+}
+
+.fa, .fa-twitter {
+  color: #de1e1e;
+}
+
 .row{
   width: 100%;
   margin: auto;
@@ -132,4 +158,46 @@ ul.no-style li{
 
 .home-thumb{
   height: 150px;
+  margin: auto;
+  alignment: center;
+}
+
+.home-thumb img{
+  width: 100%;
+  opacity: 0.6;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.home-thumb .info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  padding: 0 5em;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.home-thumb .info h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
+}
+
+.home-thumb .info p{
+  text-align: center;
+  margin: 0;
+}
+
+.home-thumb .info:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
 }

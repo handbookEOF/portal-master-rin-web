@@ -13,45 +13,32 @@
   <br>
  
   <div>
-     <div class="col-sm-4">
+    <div class="row">
+      <div class="col-sm-4">
         <div class="thumbnail hover-effect home-thumb">
-          <div class="home-thumb">
-          <img src="images/h3.jpg" height="150px">
-          <div class="overlay">
           <div class="info">
             <h3>Layanan Kami</h3>
-            <p>Cari tahu layanan yang anda butuhkan.</p>
-    <a class="btn" href="#">Lihat selengkapnya</a>
-          </div>
-          </div>
-          </div>
-        </div>
-      </div>
-    
-    <div class="col-sm-4">
-        <div class="thumbnail hover-effect home-thumb">
-          <div class="home-thumb">
-          <img src="images/h4.jpg" height="150px">
-          <div class="overlay">
-          <div class="info">
-            <h3>Rekam Jejak</h3>
-            <p>Lihat kinerja dan kumpulan produk kami.</p>
+            <p>Cari tahu berbagai layanan kami yang dapat mempermudah pekerjaan anda.</p>
             <a class="btn" href="#">Lihat selengkapnya</a>
           </div>
-          </div>
-          </div>
         </div>
       </div>
-    
     
       <div class="col-sm-4">
         <div class="thumbnail hover-effect home-thumb">
-          <div class="home-thumb">
-          <img src="images/h5.jpg" height="150px">
-          <div class="overlay">
+          <div class="info">
+            <h3>Rekam Jejak</h3>
+            <p>Lihat rekam jejak kinerja dan contoh-contoh produk kami.</p>
+            <a class="btn" href="#">Lihat selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail hover-effect home-thumb">
           <div class="info">
             <h3>Kabar Terbaru</h3>
-            <p>Ikuti berbagai kabar dan produk terbaru kami.</p>
+            <p>Ikuti berbagai kabar dan produk-produk terbaru kami.</p>
             <a class="btn" href="#">Lihat selengkapnya</a>
           </div>
         </div>
