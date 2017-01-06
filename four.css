@@ -92,24 +92,6 @@ ul.no-style li{
   width: 310px;
 }
 
-.thumbnail .caption{
-  padding: 0;
-  height: 0;
-  transition: all 0.5s;
-}
-.thumbnail .caption p{
-  opacity: 0; 
-  transition: all 0.4s;
-}
-
-.thumbnail:hover .caption{
-  height: 80px;
-}
-
-.thumbnail:hover .caption p{
-  opacity: 1;
-}
-
 .thumbnail-size{
   height: 300px;
   width: 300px;
@@ -117,7 +99,42 @@ ul.no-style li{
 }
 
 .thumbnail-size img{
-  width: 300px;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.ket{
+  position: absolute;
+  width: inherit;
+  top: 35%; 
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.ket h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
+}
+
+.ket p{
+  text-align: center;
+  margin: auto;
+  font-size: 1.50em;
+  color: #000;
+}
+
+.thumbnail:hover .ket{
+  opacity: 0.8;
+}
+
+.thumbnail:hover .thumbnail-size img{
+  opacity: 0.6;
 }
 
 .contact-details button{
@@ -134,6 +151,10 @@ ul.no-style li{
 
 .contact-bg{
   height: 350px;
+}
+
+.contact-bg .overlay h2{
+  color: #de1e1e;
 }
 
 .fa, .fa-twitter {
@@ -200,4 +221,47 @@ ul.no-style li{
 .home-thumb .info:hover{
   opacity: 1;
   filter: alpha(opacity=100);
+}
+
+.service {
+  height: 200px;
+  margin: auto;
+  alignment: center;
+}
+
+.service img{
+  width: 100%;
+}
+
+.service .text {
+  position: relative;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.service .text h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
+}
+
+.service .text p{
+  text-align: center;
+  margin: 0 .5em;
+}
+
+.container-service .thumbnail-size{
+  width: 200px;
+  height: 200px;
+}
+
+.container-service .thumbnail{
+  border: 0;
+  width: 100%;
+}
+
+.container-service .thumbnail-size{
+  margin: auto;
 }
