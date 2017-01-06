@@ -1,152 +1,267 @@
-* { 
-  border: 1px solid rgba(1, 1, 1, 1);
+* {
+  margin: 0;
+  /* border: 1px solid black; */
 }
 
-body {
-  background-image: url("images/v1.PNG");
-  background-repeat: repeat;
-  overflow: hidden;
-  text-align: center;
+html, body {
+  height: 100%;
 }
 
-.navigation {
-  background-color: #Grey;
-  height: auto;
-  text-align: center;
-  position: fixed;
-  width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 999;
-}
-
-.navigation ul {
+[class*="col-sm-"]{
   padding: 0;
 }
 
-.navigation li {
-  color: white;
+.logo-rin{
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.logo-rin img{
+  height: 80px;
+}
+
+.nav li a {
+  color: #de1e1e;
+}
+
+.nav li a:hover {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.nav li a:target {
+  color: #dadada;
+  background-color: #de1e1e;
+}
+
+.container-fluid{
+  padding: 0;
+}
+
+.content-box{
+  height: 25em;
+  /*overflow: scroll;*/
+  overflow-x: hidden;
+  position: static;
+}
+
+.content-body{
+  text-align: center;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.page-wrap{
+  min-height: 100%;
+  margin-bottom: -7em;
+}
+
+.page-wrap:after{
+  content: "";
+  display: block;
+}
+
+.navbar-footer, .page-wrap:after {
+  height: 7em;
+}
+
+.navbar-footer {
+  background-color: #de1e1e;
+}
+
+footer {
+  color: #dadada;
+  text-align: center;
+}
+
+ul.no-style {
+  list-style-type: none;
+}
+
+ul.no-style li{
+  display: inline;
+}
+
+.btn-danger{
+  border-radius: 1em;
+}
+
+.thumbnail{
+  width: 310px;
+}
+
+.container-portfolio .thumbnail-size{
+  height: 300px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.container-portfolio .thumbnail-size img{
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.4s;
+}
+
+.ket{
+  position: absolute;
+  width: inherit;
+  top: 35%; 
+  text-align: center;
+  padding: 10px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.ket h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
+}
+
+.ket p{
+  text-align: center;
+  margin: auto;
+  font-size: 1.50em;
+  color: #000;
+}
+
+.container-portfolio .thumbnail:hover .ket{
+  opacity: 0.8;
+}
+
+.container-portfolio .thumbnail:hover .thumbnail-size img{
+  opacity: 0.6;
+}
+
+.contact-details button{
   display: inline-block;
-  font-family: 'Footlight MT Light', serif;
-  font-size: 20px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin: 20px;
-  text-transform: uppercase;
+  height: 100px;
+  width: 100px;
+  color: #dadada;
+  border-radius: 5px;
 }
 
-/** Right side styling **/
-
-.content-box {
-  background: transparent;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: 220px;
-  width: 80%;
-  overflow: scroll;
+.contact-details a{
+  color: #dadada;
 }
 
-.content-header {
-  background-image: url("images/aurorr.jpg");
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  height: 320px;
-  top: -50px;
+.contact-bg{
+  height: 350px;
 }
 
-.content-body {
-  margin: 0 auto;
+.contact-bg .overlay h2{
+  color: #de1e1e;
+}
+
+.fa, .fa-twitter {
+  color: #de1e1e;
+}
+
+.row{
+  width: 100%;
+  margin: auto;
+}
+
+.hover-effect .info{
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.hover-effect .info:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.home-thumb{
+  height: 150px;
+  margin: auto;
+  alignment: center;
+}
+
+.home-thumb img{
+  width: 100%;
+  opacity: 0.6;
+  -moz-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.home-thumb .info{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  margin: 0;
+  text-align: center;
+  padding: 0 5em;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.4s;
+}
+
+.home-thumb .info h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
+}
+
+.home-thumb .info p{
+  text-align: center;
+  margin: 0;
+}
+
+.home-thumb .info:hover{
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.service {
+  height: 200px;
+  margin: auto;
+  alignment: center;
+}
+
+.service img{
   width: 100%;
 }
 
-h1 {
-  background: #05A8AA;
-  color: #FFF;
-  font-family: 'Footlight MT Light', serif;
-  font-size: 40px;
-  font-weight: 300;
-  line-height: 40px;
-  margin: 0 auto;
-  padding: 20px;
+.service .text {
   position: relative;
-  text-transform: uppercase;
-  top: 130px;
-  width: 70%;
-}
-
-h2 {
-  color: #FFF;
-  font-family: 'Footlight MT Light', serif;
-  font-size: 26px;
-  font-weight: 700;
-  letter-spacing: 2px;
   margin: 0;
-  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
 }
 
-h3 {
-  color: rgba(255, 255, 255, 0.6);
-  font-family: 'Footlight MT Light', serif;
-  font-size: 16px;
-  font-weight: 100;
-  letter-spacing: 2px;
-  margin: 0;
-  text-transform: uppercase;
+.service .text h3{
+  line-height: 1;
+  letter-spacing: .1em;
+  font-size: 1.50em;
+  text-align: center;
 }
 
-p {
-  color: #FFF;
-  text-align: justify;
-  font-family: 'Footlight MT Light', serif;
-  font-size: 26px;
-  font-weight: 100;
-  line-height: 34px;
-  min-width: 200px;
-  max-width: 800px;
-  min-height: 100px;
-  max-height: 200px;
+.service .text p{
+  text-align: center;
+  margin: 0 .5em;
 }
 
-.content-box ul {
-  padding: 40px 0px;
-}
-
-.content-box li {
-  background-color: #05A8AA;
-  display: inline-block;
-  list-style: none;
-  margin-bottom: 3px;
-  padding: 20px 40px;
+.container-service .thumbnail-size{
   width: 200px;
+  height: 200px;
 }
 
-.btn {
-  color: #05A8AA;
-  border: 1px solid #05A8AA;
-  border-radius: 4px;
-  font-family: 'Footlight MT Light', sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  margin: 10px 0px;
-  padding: 20px;
-  text-decoration: none;
-  text-transform: uppercase;
+.container-service .thumbnail{
+  border: 0;
+  width: 100%;
 }
 
-.btn:hover {
-  background-color: #05A8AA;
-  border: 1px solid #05A8AA;
-  color: #FFF;
-}
-
-.content-boxtwo {
-  background: transparent;
-  height: 500px;
-  margin: 0 auto;
-  position: relative;
-  top: 220px;
-  width: 80%;
-  overflow: scroll;
+.container-service .thumbnail-size{
+  margin: auto;
 }
