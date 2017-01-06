@@ -5,6 +5,13 @@ var aboutPage = "about.html";
 var contactPage = "contact.html";
 
 
+var url = window.location;
+$('ul.nav a[href="'+ url +'"]').parent().addClass('active');
+$('ul.nav a').filter(function() {
+  return this.href == url;
+}).parent().addClass('active');
+
+
 $.ajax({
    cache: false
 });
@@ -22,36 +29,34 @@ $(".content-box").html(function(){
 
 // Home Content
 $("#home").on('click', function(){
-  $(".content-box").html(function(){
-    $(".content-body").load(homePage);
-  });
+  responClicked(homePage);
 });
 
 // Services Content
 $("#services").on('click', function(){
-  $(".content-box").html(function(){
-    $(".content-body").load(servicePage);
-  });
+  responClicked(servicePage);
 }); 
 
 // Portfolio Content
 $("#portfolio").on('click', function(){
-  $(".content-box").html(function(){
-    $(".content-body").load(portfPage);
-  });
+  responClicked(portfPage);
 });
 
-// About Content
 $("#about").on('click', function(){
-  $(".content-box").html(function(){
-    $(".content-body").load(aboutPage);
-  });
-}); 
+  responClicked(aboutPage);
+});
 
 // Contacts Content
 $("#contact").on('click', function(){
-  $(".content-box").html(function(){
-    $(".content-body").load(contactPage);
-  });
-}); 
+  responClicked(contactPage);
+});
 
+function responClicked(responPage){
+  $(".content-box").html(function(){
+    $(".content-body").load(responPage);
+  });
+}
+
+ 
+
+ 

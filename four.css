@@ -92,13 +92,13 @@ ul.no-style li{
   width: 310px;
 }
 
-.thumbnail-size{
+.container-portfolio .thumbnail-size{
   height: 300px;
   width: 300px;
   overflow: hidden;
 }
 
-.thumbnail-size img{
+.container-portfolio .thumbnail-size img{
   width: 100%;
   opacity: 1;
   transition: opacity 0.4s;
@@ -129,11 +129,11 @@ ul.no-style li{
   color: #000;
 }
 
-.thumbnail:hover .ket{
+.container-portfolio .thumbnail:hover .ket{
   opacity: 0.8;
 }
 
-.thumbnail:hover .thumbnail-size img{
+.container-portfolio .thumbnail:hover .thumbnail-size img{
   opacity: 0.6;
 }
 
