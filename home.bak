@@ -1,0 +1,48 @@
+<div class="container-fluid">
+  <h1>Selamat Datang di R.I.N Virtual Labs!</h1>
+  <br>
+  <p>R.I.N Labs adalah start up baru dalam bidang teknologi yang berdiri pada 2016. Layanan kami berfokus pada pembuatan website dan software/aplikasi.
+  <br>Kami juga melayani pesanan design dan instalasi. Kinerja kami berorientasi kepada kebutuhan klien. Kami siap menciptakan hal baru bersama anda.
+  </br>
+  Masih ragu? Jangan khawatir, kami membuka jasa konsultasi gratis setiap hari Jumat. Kami akan mendiskusikan project bersama anda secara detail dan transparan.
+  </br>
+  </p>
+
+  <br>
+  <br>
+  <br>
+ 
+  <div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="thumbnail hover-effect home-thumb">
+          <div class="info">
+            <h3>Layanan Kami</h3>
+            <p>Cari tahu berbagai layanan kami yang dapat mempermudah pekerjaan anda.</p>
+            <a class="btn" href="#">Lihat selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail hover-effect home-thumb">
+          <div class="info">
+            <h3>Rekam Jejak</h3>
+            <p>Lihat rekam jejak kinerja dan contoh-contoh produk kami.</p>
+            <a class="btn" href="#">Lihat selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <div class="thumbnail hover-effect home-thumb">
+          <div class="info">
+            <h3>Kabar Terbaru</h3>
+            <p>Ikuti berbagai kabar dan produk-produk terbaru kami.</p>
+            <a class="btn" href="#">Lihat selengkapnya</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
